@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #e8e8e8;
+}
+.container {
+	padding: 0 10%;
+}
+.cabecalho {
+	background: #0082c7;
+}
+.cartao {
+	background: #ebef40;
+	margin: 16px;
+	padding: 16px;
+	box-sizing: border-box;
+	text-align: left;
+	flex-basis: 190px;
+	flex-grow: 1;
+}
+.mural {
+	text-align: center;
+}
+.mural--Linhas {
+	flex-direction: column;
+}
+.mural--Linhas .cartao {
+	width: auto;
+	flex-basics: auto;
+}
+.flexwrap .mural {
+	display: flex;
+	flex-wrap: wrap;
+}
+@media (min-width: 560px) {
+	.cartao {
+		width: 190px;
+		display: inline-block;
+	}
+}
