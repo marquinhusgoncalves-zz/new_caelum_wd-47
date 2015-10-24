@@ -1,0 +1,15 @@
+.mural {
+	text-align: center;
+}
+.mural--Linhas {
+	flex-direction: column;
+}
+.mural--Linhas .cartao {
+	flex-basics: auto;
+	width: auto;
+	display: block;
+}
+.flexwrap .mural {
+	display: flex;
+	flex-wrap: wrap;
+}
